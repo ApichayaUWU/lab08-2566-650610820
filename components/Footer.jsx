@@ -1,7 +1,7 @@
-export const Footer = (year, fullName, studentId) => (
+export const Footer = (props) => (
   <div className="mt-3">
     <p className="text-secondary text-center">
-      copyright © {year} {fullName} {studentId}
+      copyright © {props.year} {props.fullName} {props.studentId}
     </p>
   </div>
 );
